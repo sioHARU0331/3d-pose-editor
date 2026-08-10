@@ -1,0 +1,9 @@
+{
+  "RightShoulder": [-1.58, -2.96, -1.58],
+  "RightUpperArm": [-45.97, -26.46, -33.0],
+  "RightLowerArm": [49.89, 7.6, -179.57],
+  "RightHand": [11.32, 53.97, -11.95],
+  "RightThumbProximal": [0.0, -50.0, 100.0],
+  "RightThumbIntermediate": [0.0, 0.0, 80.0],
+  "RightThumbDistal": [0.0, 0.0, 70.0]
+}
