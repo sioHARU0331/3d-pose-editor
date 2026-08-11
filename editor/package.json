@@ -1,0 +1,1 @@
+{"name":"vrm-pose-editor","private":true,"version":"0.1.0","type":"module","scripts":{"dev":"vite --host 127.0.0.1","build":"vite build","test":"vitest run"},"dependencies":{"@pixiv/three-vrm":"3.4.4","three":"0.180.0"},"devDependencies":{"vite":"7.1.1","vitest":"3.2.4"}}

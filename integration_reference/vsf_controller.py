@@ -68,6 +68,9 @@ FORTUNE_POSE_BASE = _load_fortune_pose()
 _fortune_pose_preview = {
     bone: list(values) for bone, values in FORTUNE_POSE_BASE.items()
 }
+# Minimal B direction checks: permit the three explicitly tested bones.
+for _test_bone in ('RightHand', 'RightIndexProximal', 'RightThumbProximal'):
+    _fortune_pose_preview.setdefault(_test_bone, [0.0, 0.0, 0.0])
 
 # VSeeFace expression hotkeys.
 VK_CONTROL = 0x11
